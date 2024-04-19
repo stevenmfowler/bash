@@ -17,6 +17,10 @@ read -p "Enter your Git project: " project
 
 echo -e $PINK
 
+sudo apt update && upgrade -y
+
+sudo apt install git
+
 git config --global user.name "$username"
 echo -e "Set git user.name\n"
 
