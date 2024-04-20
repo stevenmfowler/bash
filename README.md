@@ -1,7 +1,8 @@
-# bash
-bash scripts
+# BASH
+Helpful bash scripts for developers working in Linux
 
 - author: stevenmfowler
+- created: 2024.04.18
 
 ## install_zsh.sh
 
@@ -11,6 +12,6 @@ bash scripts
 
 - Install git and setup github
 
-## personal_bash.sh
+## user_bash.sh
 
 - Set up env to run person bash scripts globaly
