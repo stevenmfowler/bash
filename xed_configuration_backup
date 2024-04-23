@@ -1,0 +1,13 @@
+[editor]
+auto-indent=true
+auto-save=false
+auto-save-interval=uint32 5
+create-backup-copy=true
+display-line-numbers=true
+highlight-current-line=true
+scheme='cobalt'
+use-default-font=false
+
+[ui]
+statusbar-visible=false
+toolbar-visible=false
