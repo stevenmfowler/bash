@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Description: fix bash documentation
+
+# Usage: create_x_vm.sh
+
+# Author: Steven Fowler (https://github.com/stevenmfowler)
+# License: MIT (https://mit-license.org)
+
+# Date: 2024-04-23
+
 # Function to check and add documentation
 check_and_add_doc() {
   local filename="$1"

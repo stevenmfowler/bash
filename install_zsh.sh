@@ -1,13 +1,13 @@
 #!/bin/bash
-# Description:
 
-  # Usage: install_zsh.sh
+# Description: Install Zsh, Oh My Zsh, Powerlevel10k (optional)
 
-  # Author: Steven Fowler (https://github.com/stevenmfowler)
-  # License: MIT (https://mit-license.org)
+# Usage: install_zsh.sh
 
-  # Date: 2024-04-23
+# Author: Steven Fowler (https://github.com/stevenmfowler)
+# License: MIT (https://mit-license.org)
 
+# Date: 2024-04-23
 
 read -p "Install Powerlevel10k (Y/n):" power
 

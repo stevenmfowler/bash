@@ -1,29 +1,13 @@
 #!/bin/bash
-# Description:
 
-  # Usage: setup_github.sh
-
-  # Author: Steven Fowler (https://github.com/stevenmfowler)
-  # License: MIT (https://mit-license.org)
-
-  # Date: 2024-04-23
-# Description:
+# Description: Install git, setup GitHub Access 
 
 # Usage: setup_github.sh
 
-# Author: You (replace with your name)
-# License: MIT (replace with desired license if applicable)
+# Author: Steven Fowler (https://github.com/stevenmfowler)
+# License: MIT (https://mit-license.org)
 
 # Date: 2024-04-23
-
-BLACK="[30m"
-RED="[31m"
-GREEN="[32m"
-YELLOW="[33m"
-BLUE="[34m"
-PINK="[35m"
-CYAN="[36m"
-WHITE="[37m"
 
 # Prompt for username
 echo -e $YELLOW
@@ -31,8 +15,6 @@ read -p "Enter your Git user.name: " username
 read -p "Enter your Git user.email: " email
 read -p "Enter your Git token: " token
 read -p "Enter your Git project: " project
-
-echo -e $PINK
 
 sudo apt update && upgrade -y
 
@@ -52,9 +34,7 @@ echo -e "Setup github access to $project using $token for $username
 "
 
 git config --global init.default branch main
-echo -e $PINK"Set default branch
-"
+echo -e "Set default branch to main."
 
-echo -e $CYAN"Git configuration completed!
-"
-echo -e $GREEN
+echo -e "Git configuration completed!"
+
