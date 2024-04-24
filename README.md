@@ -1,33 +1,11 @@
 # BASH
-# Description:
 
-  # Usage: README.md
+Description: Helpful bash scripts for developers working in Linux
 
-  # Author: Steven Fowler (https://github.com/stevenmfowler)
-  # License: MIT (https://mit-license.org)
+Author: Steven Fowler (https://github.com/stevenmfowler)
+License: MIT (https://mit-license.org)
 
-  # Date: 2024-04-23
-
-# Description: Helpful bash scripts for developers working in Linux
-
-# Usage: README.md
-
-# Author: Steven Fowler (https://github.com/stevenmfowler)
-# License: MIT (https://mit-license.org)
-
-# Date: 2024-04-23
-
-## install_zsh.sh
-
-- Install zsh, oh zsh, powerlevel10k
-
-## setup_github.sh
-
-- Install git and setup github
-
-## user_bash.sh
-
-- Set up env to run person bash scripts globaly
+Date: 2024-04-23
 
 ## The MIT License
 
