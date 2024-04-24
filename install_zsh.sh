@@ -1,4 +1,13 @@
 #!/bin/bash
+# Description:
+
+  # Usage: install_zsh.sh
+
+  # Author: Steven Fowler (https://github.com/stevenmfowler)
+  # License: MIT (https://mit-license.org)
+
+  # Date: 2024-04-23
+
 
 read -p "Install Powerlevel10k (Y/n):" power
 
@@ -22,7 +31,8 @@ fi
 # Update Theme to Powerlevel10k
 if [ "$power" == "y" || "$power" == "y" ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-    echo 'Updating Zsh theme to Powerlevel10k...\n'
+    echo 'Updating Zsh theme to Powerlevel10k...
+'
     zshrc_file="$HOME/.zshrc"
     # Check if the line already exists (prevents duplicates)
     if grep -q "^ZSH_THEME=" "$zshrc_file"; then
@@ -35,4 +45,3 @@ if [ "$power" == "y" || "$power" == "y" ]; then
 fi
 
 echo "Done. Exit terminal, re-open, complete PowerLevel10K configuration wizard."
-

@@ -1,6 +1,21 @@
 #!/bin/bash
+# Description:
 
-## Created by: Steven Fowler (2024-03-02)
+  # Usage: install_base_python.sh
+
+  # Author: Steven Fowler (https://github.com/stevenmfowler)
+  # License: MIT (https://mit-license.org)
+
+  # Date: 2024-04-23
+# Description:
+
+# Usage: install_base_python.sh
+
+# Author: You (replace with your name)
+# License: MIT (replace with desired license if applicable)
+
+# Date: 2024-04-23
+
 
 
 # Update package index
@@ -18,4 +33,3 @@ echo
 echo "Installing virtualenv..."
 pip3 install virtualenv
 echo
-

@@ -1,4 +1,20 @@
 [editor]
+# Description:
+
+  # Usage: xed_configuration_backup
+
+  # Author: Steven Fowler (https://github.com/stevenmfowler)
+  # License: MIT (https://mit-license.org)
+
+  # Date: 2024-04-23
+# Description:
+
+# Usage: xed_configuration_backup
+
+# Author: You (replace with your name)
+# License: MIT (replace with desired license if applicable)
+
+# Date: 2024-04-23
 auto-indent=true
 auto-save=false
 auto-save-interval=uint32 5

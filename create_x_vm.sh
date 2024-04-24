@@ -1,7 +1,21 @@
 #!/bin/bash
+# Description:
 
-# Author: Steven Fowler (script creation and modifications)
-# Updated: 2023.04.22
+  # Usage: create_x_vm.sh
+
+  # Author: Steven Fowler (https://github.com/stevenmfowler)
+  # License: MIT (https://mit-license.org)
+
+  # Date: 2024-04-23
+# Description:
+
+# Usage: create_x_vm.sh
+
+# Author: You (replace with your name)
+# License: MIT (replace with desired license if applicable)
+
+# Date: 2024-04-23
+
 
 # Prompt for VM name
 read -p "Enter the desired VM name: " VM_NAME
