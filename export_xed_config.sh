@@ -9,3 +9,5 @@
 # Date: 2024-04-23
 
 dconf dump /org/x/editor/preferences/ > ./xed_configuration_backup
+
+echo "in the target run: dconf load / < xed_configuration_backup"
