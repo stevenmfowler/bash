@@ -30,6 +30,7 @@ fi
 
 # Update Theme to Powerlevel10k
 if [ "$power" == "y" || "$power" == "y" ]; then
+    sudo apt install git fonts-font-awesome
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     echo 'Updating Zsh theme to Powerlevel10k...
 '
@@ -44,4 +45,9 @@ if [ "$power" == "y" || "$power" == "y" ]; then
     fi
 fi
 
-echo "Done. Exit terminal, re-open, complete PowerLevel10K configuration wizard."
+echo "Done."
+echo "1) Exit terminal, re-open, complete PowerLevel10K configuration wizard."
+echo "2) If the wizard does not start you can initial with: p10k config"
+echo "3) Review config with: xed ~/.p10k.zsh"
+
+
